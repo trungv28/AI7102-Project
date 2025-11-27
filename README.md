@@ -2,7 +2,7 @@
 
 A sophisticated legal document retrieval system using Deep Learning methods to understand complex Vietnamese legal document relationships. The system implements two complementary approaches: knowledge distillation and GNN-based reranking.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project addresses legal document retrieval using the VLegalKMaps dataset (Vietnamese legal knowledge graphs). The system processes legal documents stored as RDF/Turtle graphs and retrieves relevant document chunks based on natural language queries.
 
@@ -11,7 +11,7 @@ This project addresses legal document retrieval using the VLegalKMaps dataset (V
 - **Graph Neural Networks**: Uses Heterogeneous Graph Transformers (HGT) for legal document understanding
 - **Knowledge Distillation**: Implements teacher-student training for improved embeddings
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Approach 1: Knowledge Distillation Pipeline
 A 5-round teacher-student distillation process:
@@ -25,7 +25,7 @@ A 5-round teacher-student distillation process:
 3. **GNN Reranking**: Uses Heterogeneous Graph Transformers:
    - **DualReranker**: Combines local and global graph representations
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AI7102-Project/
@@ -70,7 +70,7 @@ AI7102-Project/
 └── requirements.txt             # Full dependency list
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -138,7 +138,7 @@ python -m src.create_graph.create_graph \
     --out-dir dataset/legal_graphs
 ```
 
-## 🔧 Key Components Explained
+## Key Components Explained
 
 ### Data Pipeline (`src/synthesis/`)
 
