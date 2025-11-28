@@ -173,3 +173,9 @@ python -m src.create_graph.create_graph \
 - `bge_teacher`: Teacher-student knowledge distillation for BGE-M3
 
 **`base_distill.py`**: 5-round knowledge distillation implementing iterative improvement through teacher-student training and self-supervision.
+
+
+## Finetuned model weight
+
+We provided with our best finetuned model GTE model here: https://huggingface.co/trung11/legal_finetuned_GTE
+Download the weight and you can now use it for inference.
